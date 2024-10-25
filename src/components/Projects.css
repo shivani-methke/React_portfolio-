@@ -1,0 +1,107 @@
+/* Projects Section */
+.projects-section {
+  padding: 60px 0;
+  background-color: #f4f4f9; /* Light background */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between grid items */
+}
+
+/* Each project card styling */
+.project {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 200px; /* Limit max width for images */
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Logo styling */
+.logo {
+  width: 50px; /* Set the logo width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 5px; /* Space between logos */
+}
+
+/* Project title styling */
+.project h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.project p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Adjust the size of logos */
+.project-logo {
+  width: 100px; /* Width of the project logo */
+  height: auto;
+  margin: 10px 0; /* Space above and below the logo */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr; /* Single column on smaller screens */
+  }
+
+  .project {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .project h3 {
+    font-size: 1.25rem;
+  }
+
+  .logo {
+    width: 25px; /* Adjust logo size for smaller screens */
+  }
+}
+
+

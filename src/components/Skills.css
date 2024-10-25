@@ -1,0 +1,70 @@
+/* Skills Section */
+.skills-section {
+  padding: 60px 0; /* Add padding on top and bottom */
+  background-color: #f4f4f9; /* Light background color */
+}
+
+.container {
+  width: 80%; /* Width of the container */
+  margin: 0 auto; /* Center the container */
+}
+
+h2 {
+  font-size: 2.5rem; /* Font size for the heading */
+  text-align: center; /* Center align the heading */
+  margin-bottom: 40px; /* Space below the heading */
+  color: #333; /* Heading color */
+}
+
+.skills-grid {
+  display: grid; /* Use grid layout for skills */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Space between skill items */
+}
+
+.skill {
+  background-color: #333; /* Background color for each skill item */
+  color: #fff; /* White text color */
+  padding: 20px; /* Padding inside the skill item */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  text-align: center; /* Center align the text inside */
+}
+
+.progress-bar {
+  background-color: #ddd; /* Light gray background for the progress bar */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Ensure progress doesn't overflow */
+  height: 20px; /* Height of the progress bar */
+  margin-top: 10px; /* Space above the progress bar */
+}
+
+.progress {
+  background-color: #4caf50; /* Green background for progress */
+  height: 100%; /* Full height of the progress bar */
+  display: flex; /* Flex to center percentage text */
+  align-items: center; /* Center vertically */
+  justify-content: flex-end; /* Align to the right */
+  padding-right: 10px; /* Space between text and right edge */
+  color: white; /* White text color */
+  font-weight: bold; /* Bold text */
+}
+
+.percentage {
+  font-size: 0.85rem; /* Font size for percentage text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust container width for smaller screens */
+  }
+
+  h2 {
+    font-size: 2rem; /* Adjust heading size for smaller screens */
+  }
+
+  .skill h3 {
+    font-size: 1.25rem; /* Adjust skill title size for smaller screens */
+  }
+}

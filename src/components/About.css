@@ -1,0 +1,41 @@
+/* About Section */
+.about-section {
+  padding: 60px 0; /* Padding on the top and bottom */
+  background-color: #f4f4f9; /* Light background color */
+  color: #333; /* Dark text color for contrast */
+}
+
+.container {
+  width: 80%; /* Width of the container */
+  margin: 0 auto; /* Center the container */
+}
+
+h2 {
+  font-size: 2.5rem; /* Font size for the heading */
+  text-align: center; /* Center align the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #333; /* Heading color */
+}
+
+p {
+  font-size: 1.125rem; /* Font size for the paragraph */
+  line-height: 1.6; /* Line height for better readability */
+  text-align: center; /* Center align the text */
+  margin: 0 0 20px; /* Margin below the paragraph */
+  color: #555; /* Dark gray color for the paragraph text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust container width for smaller screens */
+  }
+
+  h2 {
+    font-size: 2rem; /* Adjust heading size for smaller screens */
+  }
+
+  p {
+    font-size: 1rem; /* Adjust paragraph size for smaller screens */
+  }
+}

@@ -1,0 +1,81 @@
+/* Contact Section */
+.contact-section {
+  padding: 60px 0; /* Add padding on top and bottom */
+  background-color: #333; /* Dark background color */
+}
+
+.container {
+  width: 80%; /* Width of the container */
+  margin: 0 auto; /* Center the container */
+}
+
+.contact-heading {
+  font-size: 2.5rem; /* Font size for the heading */
+  text-align: center; /* Center align the heading */
+  margin-bottom: 40px; /* Space below the heading */
+  color: #ffcc00; /* Change heading color (example: yellow) */
+}
+
+.contact-info {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center align the contact info */
+  align-items: center; /* Align items vertically */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  margin-bottom: 20px; /* Space below the contact info */
+}
+
+.contact-info p {
+  color: #fff; /* Change text color to white for visibility */
+  margin: 0 15px; /* Space between contact items */
+  font-size: 1.2rem; /* Adjust font size for readability */
+}
+
+/* Set email link color to white */
+.contact-info a {
+  color: #fff; /* Set email link color to white */
+  text-decoration: none; /* Remove underline from link */
+}
+
+.contact-info a:hover {
+  text-decoration: underline; /* Optional: underline on hover */
+}
+
+.social-links {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center align the social icons */
+  margin-top: 20px; /* Space above the icons */
+}
+
+.social-links a {
+  margin: 0 15px; /* Space between icons */
+}
+
+.social-links img {
+  width: 50px; /* Width of the icons */
+  height: 50px; /* Height of the icons */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-links img:hover {
+  transform: scale(1.1); /* Scale up the icon on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust container width for smaller screens */
+  }
+
+  .contact-heading {
+    font-size: 2rem; /* Adjust heading size for smaller screens */
+  }
+
+  .contact-info p {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .social-links img {
+    width: 40px; /* Adjust icon size for smaller screens */
+    height: 40px;
+  }
+}

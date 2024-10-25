@@ -1,0 +1,57 @@
+/* Education Section */
+.education-section {
+  padding: 60px 0; /* Add some padding on the top and bottom */
+  background-color: #f4f4f9; /* Light background color */
+}
+
+.container {
+  width: 80%; /* Width of the container */
+  margin: 0 auto; /* Center the container */
+}
+
+h2 {
+  font-size: 2.5rem; /* Font size for the heading */
+  text-align: center; /* Center align the heading */
+  margin-bottom: 40px; /* Space below the heading */
+  color: #333; /* Heading color */
+}
+
+.education-item {
+  background-color: #333; /* Dark background for each education item */
+  color: #fff; /* White text color for education item */
+  padding: 20px; /* Padding inside the item */
+  margin: 20px 0; /* Margin above and below each item */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  text-align: center; /* Center align the text inside */
+  /* background-image: url('../assets/your-background-image.png'); Replace with your background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+}
+
+.education-item h3 {
+  font-size: 1.5rem; /* Font size for education item title */
+  color: #fff; /* Title color in white */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.education-item p {
+  font-size: 1rem; /* Font size for education item details */
+  color: #fff; /* Detail color in white */
+  margin: 5px 0; /* Space above and below details */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust container width for smaller screens */
+  }
+
+  h2 {
+    font-size: 2rem; /* Adjust heading size for smaller screens */
+  }
+
+  .education-item h3 {
+    font-size: 1.25rem; /* Adjust title size for smaller screens */
+  }
+}

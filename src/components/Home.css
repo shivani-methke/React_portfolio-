@@ -1,0 +1,77 @@
+/* Home Section */
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1e1e1e; /* Dark background color */
+  color: #fff; /* White text color */
+  padding-top: 60px; /* Adjust for fixed navbar */
+}
+
+.home-section .container {
+  display: flex; /* Flexbox layout for container */
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space between items */
+  width: 80%; /* Limit the width of the container */
+}
+
+.profile-image {
+  flex: 1; /* Allow the image section to take up space */
+  display: flex; /* Use flex for centering the image */
+  justify-content: center; /* Center the image horizontally */
+}
+
+.profile-image img {
+  width: 350px; /* Image width */
+  height: 400px; /* Image height */
+  border-radius: 50%; /* Circular image */
+  border: 5px solid #fff; /* White border */
+  margin-bottom: 20px; /* Space below the image */
+  /* Removed margin-right since we manage spacing with the container */
+}
+
+.intro-text {
+  flex: 2; /* Allow the text section to take up more space */
+  text-align: left; /* Align text to the left */
+  padding: 0 20px; /* Add padding on left and right */
+  position: relative; /* Optional: can be removed if not needed */
+  margin-left: 5rem; /* Space to the left */
+}
+
+.intro-text h1 {
+  font-size: 2.5rem; /* Heading font size */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+.intro-text .highlight {
+  color: #ffcc00; /* Highlight color */
+  /* margin-left: 10px; */
+
+
+}
+
+.intro-text .highlight1 {
+  color: #a3a29d; /* Highlight color */
+  font-size: 25px;
+}
+
+.intro-text p {
+  font-size: 1.2rem; /* Paragraph font size */
+  margin-bottom: 20px; /* Space below paragraph */
+}
+
+.btn {
+  display: inline-block; /* Button inline block */
+  padding: 10px 20px; /* Button padding */
+  background-color: #ffcc00; /* Button background color */
+  color: #1e1e1e; /* Button text color */
+  text-decoration: none; /* Remove underline from link */
+  border-radius: 5px; /* Rounded corners */
+  font-weight: bold; /* Bold button text */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.btn:hover {
+  background-color: #ffc107; /* Darker shade on hover */
+}
